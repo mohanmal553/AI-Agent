@@ -1,0 +1,17 @@
+# Core Machine Learning
+torch
+torchvision
+torchaudio
+xformers
+
+# Fine-tuning & Optimization
+unsloth
+trl
+peft
+accelerate
+bitsandbytes
+
+# API Server
+fastapi
+uvicorn
+pydantic

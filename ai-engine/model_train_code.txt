@@ -1,0 +1,115 @@
+# STEP - 01
+# Install Unsloth for 2x faster training and memory efficiency
+!pip install unsloth
+!pip install --no-deps xformers trl peft accelerate bitsandbytes
+
+
+
+
+# STEP - 02
+from unsloth import FastLanguageModel
+import torch
+
+model, tokenizer = FastLanguageModel.from_pretrained(
+    model_name = "unsloth/meta-llama-3.1-8b-bnb-4bit", # The "Gold Standard" model
+    max_seq_length = 2048,
+    load_in_4bit = True,
+)
+
+model = FastLanguageModel.get_peft_model(
+    model,
+    r = 32, 
+    target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
+                      "gate_proj", "up_proj", "down_proj",],
+    lora_alpha = 32,
+    lora_dropout = 0,
+    bias = "none",
+)
+
+
+
+
+# STEP - 03
+from datasets import load_dataset
+
+# Define the prompt style
+alpaca_prompt = """Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+{}
+
+### Response:
+{}"""
+
+def formatting_prompts_func(examples):
+    instructions = examples["instruction"]
+    inputs       = examples["input"]
+    outputs      = examples["output"]
+    texts = []
+    for instruction, input, output in zip(instructions, inputs, outputs):
+        # Combine instruction and input for a unified question
+        full_instruction = f"{instruction} ({input})".strip() if input else instruction
+        text = alpaca_prompt.format(full_instruction, output) + tokenizer.eos_token
+        texts.append(text)
+    return { "text" : texts, }
+
+dataset = load_dataset("json", data_files="university_dataset.json", split="train")
+dataset = dataset.map(formatting_prompts_func, batched = True)
+
+
+
+
+
+# STEP - 04
+from trl import SFTTrainer
+from transformers import TrainingArguments
+
+trainer = SFTTrainer(
+    model = model,
+    tokenizer = tokenizer,
+    train_dataset = dataset,
+    dataset_text_field = "text",
+    max_seq_length = 2048,
+    args = TrainingArguments(
+        per_device_train_batch_size = 2,
+        gradient_accumulation_steps = 4,
+        warmup_steps = 5,
+        max_steps = 150, # Llama-3.1 learns fast; 100-150 steps is usually enough
+        learning_rate = 2e-4,
+        fp16 = not torch.cuda.is_bf16_supported(),
+        bf16 = torch.cuda.is_bf16_supported(),
+        logging_steps = 1,
+        optim = "adamw_8bit",
+        weight_decay = 0.01,
+        output_dir = "outputs",
+    ),
+)
+
+trainer.train()
+
+
+
+
+# STEP - 05 TEST MODEL
+from transformers import TextStreamer
+FastLanguageModel.for_inference(model)
+
+# Ask any question from your dataset
+question = "can i bring the phone in collage"
+
+inputs = tokenizer([alpaca_prompt.format(question, "")], return_tensors = "pt").to("cuda")
+
+print("\n--- AI RESPONSE ---\n")
+text_streamer = TextStreamer(tokenizer)
+_ = model.generate(**inputs, streamer = text_streamer, max_new_tokens = 128, repetition_penalty = 1.2)
+
+
+
+
+
+### Model Train Result ###
+
+TrainOutput(global_step=150, training_loss=0.48880773698290186, metrics={'train_runtime': 473.7036, 'train_samples_per_second': 2.533,
+'train_steps_per_second': 0.317, 'total_flos': 4729862899777536.0, 'train_loss': 0.48880773698290186, 'epoch': 6.25})
+
+

@@ -1,0 +1,401 @@
+// Course & Fees
+Q. UG/PG -> Course Name -> Total Seat -> fees -> eligibility
+
+School of Engineering & Technology (SOET)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.Tech Computer Science (CSE),320,"₹8,90,000",10+2 (60%) with PCM + WBJEE/JEE Main/AUAT
+UG,B.Tech Biotechnology,90,"₹8,15,000",10+2 (60%) with PCB/PCM
+UG,B.Tech Civil Engineering,60,"₹4,15,000",10+2 (55%) with PCM
+UG,B.Tech Electrical/ECE/ME,60 (each),"₹4,68,000 - ₹5,71,000",10+2 (60%) with PCM
+UG,BCA (Hons),150,"₹5,04,000",10+2 (60%) with Maths/Stats/CS
+PG,MCA,60,"₹2,81,000",BCA/B.Sc/B.Com with Maths (55%)
+PG,M.Tech (CSE),10,"₹3,08,000",B.E/B.Tech (60%) + GATE/AUAT
+
+School of Business & Economics (SOB / SOBE)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,BBA (Hons),120,"₹7,47,000",10+2 (60%) any stream
+UG,B.Com (Hons),50,"₹3,38,000",10+2 (60%) any stream
+UG,B.Sc Economics,30,"₹3,00,000",10+2 (50%) with Maths/Stats
+PG,MBA (General/Analytics),60,"₹7,33,000",Graduation (50-60%) + CAT/MAT/XAT
+
+School of Law & Justice (SOLJ)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,BA LL.B (Hons),60,"₹9,74,000",10+2 (60%) + CLAT/AUAT
+UG,BBA LL.B (Hons),60,"₹9,74,000",10+2 (60%) + CLAT/AUAT
+PG,LLM,30,"₹2,58,000",LLB degree (50%)
+
+School of Medical Sciences (SOMS)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.Pharma,100,"₹9,56,000",10+2 (60%) with PCB/PCM
+UG,B.Sc Medical Lab Tech (BMLT),60,"₹4,92,000",10+2 (50%) with PCB
+UG,Bachelor of Optometry,40,"₹3,60,000",10+2 (50%) with PCB
+Dip,D.Pharma,60,"₹3,36,000",10+2 (Science stream)
+
+School of Basic & Applied Sciences (SOBAS)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.Sc (Hons) Forensic Science,40,"₹5,89,000",10+2 (50%) with PCM/PCB
+UG,B.Sc (Hons) Physics/Chem/Math,30 (each),"₹2,95,000",10+2 (50%) with relevant subjects
+PG,M.Sc (Physics/Chem/Math),245 (Total),"₹1,93,000 - ₹3,71,000",B.Sc (Hons) in relevant subject (50%)
+
+School of Liberal Arts & Cultural Studies (SOLACS)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,BA (Hons) English/Psychology,60,"₹1,87,000 - ₹4,05,000",10+2 (50%) any stream
+UG,B.A Journalism & Mass Comm,40,"₹4,92,000",10+2 (50%) any stream
+PG,B.Ed,100,"₹2,10,000",Graduation (50%) + Entrance Test
+
+School of Life Science & Biotechnology (SOLB)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.Sc (Hons) Biotechnology,90,"₹6,50,000",10+2 (60%) with PCB/PCM
+UG,B.Sc (Hons) Microbiology,60,"₹5,94,000",10+2 (50%) with PCB/PCM
+UG,B.Sc (Hons) Biochemistry,30,"₹4,10,000",10+2 (50%) with PCB/PCM
+PG,M.Sc Biotechnology,30,"₹3,25,000",B.Sc Biotechnology/Life Science (50%)
+PG,M.Sc Microbiology,20,"₹3,63,000",B.Sc Microbiology/Life Science (50%)
+
+School of Media & Communication (SOMC)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.A. (Hons) Journalism & Mass Comm,60,"₹4,92,000",10+2 (50%) any stream
+UG,B.Sc Graphics & Animation,40,"₹4,10,000",10+2 (50%) any stream
+PG,M.A. Journalism & Mass Comm,20,"₹2,20,000",Graduation (50%) any stream
+
+School of Smart Agriculture (SOSA)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.Sc (Hons) Agriculture,80,"₹4,50,000",10+2 (50%) with PCB/PCM/Agriculture
+PG,M.Sc Agriculture (Agronomy),15,"₹2,05,000",B.Sc Agriculture (Hons) (60%)
+
+School of Education (SOE)
+UG/PG,Course Name,Total Seats,Approx. Total Fees,Eligibility
+UG,B.Ed (Bachelor of Education),100,"₹2,32,000",Graduation/PG (50%) or B.Tech (55%)
+UG,B.A. (Hons) Education,40,"₹2,45,000",10+2 (50%) any stream
+PG,M.A. Education,20,"₹1,55,000",Graduation in Education (50%)
+
+
+1. Does this course include a mandatory internship?
+-> Yes, most professional courses at Adamas University include a mandatory internship as part of the curriculum. These internship opportunities are facilitated by the university's Career Development Cell (CDC) to ensure students gain practical industry exposure.
+
+2. Are there any research opportunities for students?
+-> Yes, Adamas University actively encourages student research through faculty-led projects, well-equipped specialized labs, and the dedicated Research and Development (R&D) Cell. Students are supported in publishing papers, filing patents, and presenting at national or international conferences.
+
+
+// Fees
+1. Is the fee paid annually or per semester?
+->  At Adamas University, fees are typically paid on a per-semester basis.
+
+2. What is the deadline for fee payment?
+->  The fee payment window for the Odd Semester is generally from October 15th to November 15th, and for the Even Semester, it is from March 15th to April 15th.
+
+3. Can I pay the fees in installments?
+->  Currently, Adamas University does not offer an installment facility; the semester fees must be paid in full by the stipulated deadline.
+
+4. Are there any additional lab or library fees?
+->  No, there are no separate additional charges for lab or library usage, as these facilities are included in the overall academic structure.
+
+5. How can I pay the fees online?
+->  Fees can be paid conveniently through the official Adamas University Student Portal using various online payment methods.
+
+6. Is the admission fee refundable if I withdraw?
+->  In the event of a withdrawal, a processing fee will be deducted, and the remaining amount will be refunded in accordance with the university’s refund policy.
+
+7. Are there any hidden charges I should know about?
+->  No, Adamas University maintains full transparency, and there are no hidden charges beyond the fees mentioned in the official structure.
+
+8. What is the examination fee per semester?
+->  The examination fee is already included within the consolidated semester fee, so no separate payment is required for regular end-term exams.
+
+9. What is the late fee penalty?
+->  If the fee is paid after the deadline, a late fine of ₹500 is charged for the first day of delay, followed by an additional penalty of ₹250 for each subsequent day.
+
+10. Do international students have a different fee structure?
+->  No, the fee structure for international students at Adamas University remains the same as that for domestic students.
+
+11. Does the fee increase every year?
+->  Any adjustment to the fee structure is subject to the university's management decisions and will be notified to the students accordingly.
+
+// Admission
+1. When does the admission process start?
+->  The admission process at Adamas University typically commences in the early months of the calendar year, usually around January or February, for the upcoming academic session.
+
+2. What is the last date to submit the application form?
+->  The deadline for submitting application forms varies depending on the specific course and the phase of admissions. We recommend checking the "Admissions" section on the official Adamas University website for the most current dates.
+
+3. What are the eligibility criteria for [Course]?
+->  Eligibility criteria depend on the specific program. Generally, for Undergraduate courses, a pass in 10+2 from a recognized board is required, while for Postgraduate courses, a relevant Bachelor's degree is necessary. Specific aggregate percentage requirements vary by school.
+
+4. Is there an entrance exam for admission?
+->  Yes, Adamas University conducts the Adamas University Admission Test (AUAT) for several programs. Additionally, scores from national-level exams like JEE Main, GATE, MAT, CAT, or CLAT are also accepted for relevant technical and professional courses.
+
+5. How can I apply online?
+->  To apply online, please visit the official Adamas University website (www.adamasuniversity.ac.in), click on the "Apply Now" button, register with your details, fill out the application form, and pay the prescribed application fee.
+
+6. What documents are required for admission?
+->  The standard documents required include your 10th and 12th-grade mark sheets and certificates, graduation transcripts (for PG), a valid ID proof (Aadhaar Card), recent passport-size photographs, and a medical fitness certificate.
+
+7. What is the minimum percentage required for [Course]?
+->  The minimum percentage required varies; however, most programs require a minimum aggregate of 50% to 60% in your previous qualifying examination. Professional courses may have higher benchmarks.
+
+8. Can I apply for more than one course?
+->  Yes, you are permitted to apply for more than one course at Adamas University; however, you will need to submit separate application forms and fees for each program.
+
+9. What should I do if my payment failed during registration?
+->  If a payment fails, please wait for 24 hours to see if the status updates. If the amount was debited but the portal shows "Failed," you should contact the Adamas University Admission Helpdesk or the Accounts Department with your transaction ID for assistance.
+
+// Placement
+1. What is the average salary package for this year?
+->  While the specific average salary for the current year is not explicitly listed in the handbook, Adamas University has a strong track record of placements. In previous cycles, top packages have reached as high as ₹18 LPA, with many students securing competitive offers across various industries.
+
+2. Which companies visited the campus last year?
+->  A wide range of prestigious companies visit Adamas University for recruitment. Notable recruiters include industry leaders such as Tata Consultancy Services (TCS), Cognizant, Wipro, Infosys, Capgemini, Deloitte, and many others across the IT, management, and core engineering sectors.
+
+3. Do you have a dedicated placement cell?
+->  Yes, Adamas University has a highly active and dedicated Career Development Cell (CDC). The CDC works year-round to bridge the gap between academia and industry by organizing recruitment drives, networking events, and corporate interactions.
++1
+
+4. What percentage of students get placed every year?
+->  Adamas University consistently maintains a high placement percentage. While the exact figure varies by department, the university strives for maximum placement excellence, with many departments achieving near-total placement for eligible and interested students.
+
+5. Does the college provide training for interviews?
+->  Yes, the Career Development Cell at Adamas University provides comprehensive training to prepare students for the professional world. This includes mock interviews, personality development workshops, resume-building sessions, and soft-skills training to enhance employability.
+
+6. Can I apply for off-campus placements?
+->  Yes, students are permitted to apply for off-campus placements. However, the university encourages students to actively participate in the numerous on-campus opportunities provided by the Career Development Cell to ensure a streamlined and supported transition into their careers.
+
+// Hostel
+1. What are the hostel fees per year?
+-> For the 2024-25 academic session, Adamas University hostel fees range approximately from ₹66,600 to ₹1,35,000 per annum for lodging. The exact cost depends on your choice of room (AC or Non-AC and Single, Double, Triple, or Four-bed occupancy). Please note that additional charges apply for mess facilities. The university also offers a ₹30,000 concession in the second year and a 10% concession in the third year of stay.
+
+2. Are there separate hostels for boys and girls?
+-> Yes, Adamas University provides entirely separate and secure hostel buildings for male and female students.
+
+3. Can I choose my roommate?
+-> Yes, the university generally allows students the flexibility to choose their roommates, subject to availability and mutual agreement during the allotment process.
+
+4. What are the room types (Single/Double/AC)?
+-> Adamas University offers a variety of accommodation options, including Single, Double, Triple, and Four-bed rooms, available in both AC and Non-AC categories.
+
+5. Is Wi-Fi available in the hostel rooms?
+-> Yes, high-speed Wi-Fi connectivity is provided throughout the hostel rooms to support students' academic needs.
+
+6. How is the security in the hostel?
+-> Adamas University maintains a high level of security with 24/7 surveillance and dedicated wardens to ensure a safe and protected living environment for all residents.
+
+7. How do I apply for a hostel room?
+-> You can apply for hostel accommodation conveniently through the Adamas University official online portal during the admission or registration process.
+
+8. Is there a power backup facility?
+-> Yes, the hostels are equipped with 24/7 power backup facilities to ensure an uninterrupted supply of electricity.
+
+9. Is there 24/7 water, electricity, and Wi-Fi?
+-> Yes, Adamas University ensures that essential services, including water, electricity, and Wi-Fi, are available to hostel residents 24 hours a day.
+
+10. How far is the hostel from the main academic block?
+-> The hostels are conveniently located on campus, within a short 5-minute walk from the main academic blocks.
+
+// Canteen
+1. What are the canteen timings?
+->  The main canteen hours at Adamas University are typically from 12:30 PM to 1:30 PM to accommodate the peak lunch period.
+
+2. Is the food hygienic?
+->  Yes, Adamas University maintains high standards of cleanliness and hygiene in all food preparation and dining areas to ensure the well-being of students and staff.
+
+3. What is the average cost of a meal?
+->  The average cost of a meal ranges from ₹50 to ₹80, depending on your choice of menu items, such as vegetarian, fish, egg, or chicken options.
+
+4. Do you serve both Veg and Non-Veg food?
+->  Yes, the university canteen provides a variety of both vegetarian and non-vegetarian meal options daily.
+
+5. Is there a monthly/yearly mess subscription?
+->  Yes, Adamas University offers mess subscription plans on a monthly or yearly basis for the convenience of regular diners and hostel residents.
+
+6. Can I pay for meals using a digital wallet or card?
+->  Yes, for ease of transaction, the canteen accepts payments via digital wallets, cards, and other online payment methods.
+
+7. Are there healthy or diet food options?
+->  Yes, the canteen offers healthy food choices to cater to students who prefer nutritious and balanced meal options.
+
+8. Is the canteen open on weekends?
+->  The general campus canteen is typically closed on weekends; however, separate dining facilities and dedicated cooking services are available for students residing in the hostels.
+
+9. What are the breakfast, lunch, and dinner options?
+->  Adamas University provides a diverse menu including various options such as eggs, fish, meat, rotis, and paneer dishes to ensure a balanced variety for every meal.
+
+// Attendance
+1. What is the minimum attendance required?
+->  At Adamas University, students are required to maintain a minimum of 75% attendance in each subject to be eligible for examinations.
+
+2. What happens if my attendance is low?
+->  If a student's attendance falls below the mandatory requirement, they may be debarred from appearing in the end-semester examinations.
+
+3. How can I check my daily attendance?
+->  Students can conveniently monitor their daily attendance records through the Adamas University Student Portal.
+
+4. Is there any relaxation for medical reasons?
+->  Yes, the university may grant a relaxation of up to 10% in attendance for valid medical reasons, provided that the necessary medical certificates are submitted.
+
+5. Does attendance carry marks in the final result?
+->  Yes, attendance is incentivized; students who maintain 75% attendance or more receive 5 marks toward their final internal assessment.
+
+6. Is biometric attendance used?
+->  Yes, Adamas University utilizes a biometric system to ensure accurate and transparent recording of student attendance.
+
+7. Will my parents be notified about low attendance?
+->  Yes, the university sends monthly attendance reports to parents to keep them informed of their ward's academic progress.
+
+8. Can I make up for low attendance through extra classes?
+-> No, the university does not typically provide extra classes specifically for the purpose of compensating for low attendance.
+
+9. Is attendance calculated per subject or overall?
+->  Attendance at Adamas University is calculated individually for each subject rather than on an overall basis.
+
+10. Does the attendance reset every semester?
+->  Yes, the attendance record is reset at the beginning of every new semester.
+
+11. What if a teacher forgets to mark my attendance?
+->  In the event that attendance is missed, you should immediately inform the respective faculty member and provide proof of your presence during that specific class.
+
+12. Can I sit for exams if I have exactly 73% to 74%?
+->  While the official rule strictly requires 75%, cases falling slightly short (such as 73% or 74%) may be considered for review by the authorities under exceptional circumstances, though this is not guaranteed.
+
+// Exam
+1. When is the exam timetable released?
+->  The examination timetable at Adamas University is typically released approximately 1 to 2 weeks before the commencement of the exams.
+
+2. What is the passing mark for each subject?
+->  To successfully pass a subject, students are generally required to achieve a minimum score of 50%.
+
+3. What is the procedure for back-log (re-appear) exams?
+->  To apply for a back-log exam, students must pay a registration fee of ₹3,000, along with a re-examination fee of ₹5,000 per subject. After completing the registration, you can download your admit card from the official Adamas University portal and appear for the exam on the scheduled date.
+
+4. How do I download my Admit Card/Hall Ticket?
+->  You can download your Admit Card or Hall Ticket directly from the official Adamas University student portal once it has been issued.
+
+5. What are the rules inside the examination hall?
+->  Students must strictly adhere to the university's code of conduct during examinations. This includes carrying a valid ID card and admit card, arriving on time, and refraining from bringing any unauthorized materials, electronic devices, or mobile phones into the hall. Any form of malpractice may lead to the cancellation of the examination or expulsion from the university.
+
+6. When will the semester results be declared?
+->  According to university regulations, semester results are typically published within twenty days after the last day of the examination.
+
+7. Is there a supplementary exam held every year?
+->  Yes, Adamas University conducts supplementary examinations annually for students who need to clear their back-log subjects.
+
+8. What is the fee for a backlog and debarred exam?
+->  The fee structure for backlog and debarred exams consists of a ₹3,000 registration fee and a ₹5,000 fee for each individual subject.
+
+// Faculty
+1. Who is the Head of the Department?
+-> The Head of the Department varies depending on your specific branch of study. For precise information, please refer to the departmental directory on the Adamas University website or visit your respective department office.
+
+2. Who is the Dean of the SOET department?
+-> The Dean of the School of Engineering and Technology (SOET) at Adamas University is Prof. (Dr.) Sajal Saha.
+
+3. Do teachers help with project work?
+-> Yes, the faculty members at Adamas University actively mentor and guide students throughout their project work, providing necessary academic and technical support to ensure successful completion.
+
+// Timing
+1. What are the standard college hours?
+-> The standard academic hours at Adamas University are from 9:30 AM to 5:30 PM.
+
+2. Is the college open on Saturdays and Sundays?
+-> Adamas University is generally closed for regular student classes on Saturdays and Sundays.
+
+3. What is the duration of one lecture?
+-> The typical duration for a single lecture at Adamas University is 1 hour.
+
+4. When is the lunch break?
+-> Lunch break timing is generally scheduled between 12:30 PM to 1:30 PM.
+
+5. What are the library timings?
+-> The library is available for student use during university hours; please check with the librarian for specific extended reading room timings.
+
+6. Are labs open after college hours?
+-> No, the laboratories at Adamas University typically remain closed after the standard college hours.
+
+7. Is there a shift system (Morning/Evening)?
+-> No, Adamas University generally operates on a standard full-time academic schedule from 9:30 AM to 5:30 PM rather than a shift system.
+
+8. What are the office hours for administrative work?
+-> The administrative offices at Adamas University are open for student queries and paperwork from 9:30 AM to 5:30 PM.
+
+9. What time does the hostel mess open and close?
+-> The hostel mess at Adamas University operates during specific slots for breakfast, lunch, snacks, and dinner; students are advised to refer to the hostel notice board for the exact daily schedule.
+
+// Scholarship
+1. What scholarships are available for new students?
+-> Adamas University offers various scholarship opportunities for new students and prior academic performance. For example, students scoring 95% and above in qualifying exams may receive a scholarship equivalent to 100% of their first-semester fee. Also include goverment scholarship like SVMCM, Aikyashree sc/st scholarship.
+2. How do I apply for a merit-based scholarship?
+-> To apply for a merit-based scholarship at Adamas University, you should typically submit your relevant academic transcripts or entrance exam scorecards during the admission process for evaluation by the scholarship committee.
+3. What is the minimum percentage required to maintain a scholarship?
+-> To maintain a University scholarship at Adamas University, students are generally required to maintain a minimum of 70% marks. For government-funded scholarships, the requirement is typically 65% for undergraduate (UG) programs and 55% for postgraduate (PG) programs.
+4. What documents are needed for a scholarship application?
+-> To apply for a scholarship at Adamas University, you will generally need to provide your previous qualifying examination mark sheets, a copy of your Aadhaar card, a bank passbook, and the relevant fee payment receipts. Please note that additional documentation may be required depending on the specific scholarship category you are applying for.
+
+// Medical
+1. Is there a medical clinic on campus?
+-> Yes, Adamas University provides a dedicated medical clinic on campus to cater to the healthcare needs of its students.
+
+2. Are there 24/7 ambulance services available?
+-> Yes, Adamas University ensures student safety by providing 24/7 ambulance services for any medical emergencies.
+
+3. Is a doctor available on-call in the hostel?
+-> Yes, medical assistance is available, and a doctor can be reached on-call to provide necessary care for students residing in the Adamas University hostels.
+
+4. Are basic medicines available for free?
+-> Yes, Adamas University provides basic first-aid and essential medicines free of charge to students at the campus medical center.
+
+5. Do I need to submit a fitness certificate during admission?
+-> Yes, as part of the formal admission process at Adamas University, students are required to submit a valid medical fitness certificate.
+
+// Rules & Regulation
+1. What is the dress code for students?
+->  There is no specific mandatory dress code at Adamas University; however, students are expected to dress in a manner that is appropriate and respectful of an academic environment.
+
+2. Is ragging strictly prohibited? (Anti-ragging policy)
+->  Yes, Adamas University maintains a zero-tolerance anti-ragging policy. Students are required to submit a signed affidavit to ensure a safe and welcoming campus for everyone.
+
+3. Are mobile phones allowed in the classroom?
+->  Students are permitted to carry mobile phones on the Adamas University campus, but their use is strictly prohibited during classes to ensure an uninterrupted learning experience.
+
+4. What is the policy on smoking and alcohol inside the campus?
+->  Adamas University is a strictly smoke-free and alcohol-free campus. The consumption or possession of such substances is absolutely prohibited.
+
+5. Are students allowed to bring their own vehicles?
+->  Yes, students of Adamas University are allowed to bring their own personal vehicles to the campus.
+
+6. Is there a parking fee?
+->  No, Adamas University currently provides parking facilities for students free of charge.
+
+7. Can I bring a laptop to the class?
+->  Yes, you are welcome to bring a laptop to class at Adamas University for academic purposes, research, and note-taking.
+
+8. Is it mandatory to wear the ID card at all times?
+->  Yes, for security and identification purposes, it is mandatory for all students to wear and display their Adamas University ID card at all times while on campus.
+
+9. What are the penalties for damaging college property?
+->  Any damage to Adamas University property is taken seriously, and penalties are determined based on the nature and extent of the damage caused.
+
+10. Are outside visitors allowed on campus?
+->  Only authorized visitors, such as parents or local guardians, are permitted on the Adamas University campus after completing the necessary security verification at the gate.
+
+// Transport
+1. Does the university provide a bus service for students?
+-> Yes, Adamas University provides comprehensive bus support for students from Monday to Friday.
+
+2. What is the schedule for the college bus?
+-> The college buses operate from Monday to Friday, with an arrival time at the campus of 9:30 AM and a departure time of 5:30 PM.
+
+3. What is the annual/semester fee for the transport service?
+-> The transport fee varies based on your specific pickup and drop-off locations. We recommend checking the fee structure manually or contacting the transport department for precise details.
+
+4. How do I apply for a bus pass?
+-> To apply for a bus pass, please visit the official university online portal and complete the necessary application forms.
+
+5. Is there a GPS tracking system for the college buses?
+-> Yes, the university buses are equipped with a GPS tracking system to ensure the safety and convenience of our students.
+
+6. Can I pay the transport fee in installments?
+-> Currently, the transport fee must be paid in full as per the notified deadlines; payment in installments is not permitted.
+
+7. Are the buses air-conditioned (AC) or non-AC?
+-> The university transport fleet currently consists of non-AC buses.
+
+8. Does the college provide transport for industrial visits or field trips?
+-> Yes, the university provides transport facilities for organized industrial visits and academic field trips as part of the curriculum.

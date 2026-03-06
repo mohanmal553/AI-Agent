@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+fine_tuned_model/
+ai-engine/fine_tuned_model/
+*.safetensors
+*.bin
+*.pt

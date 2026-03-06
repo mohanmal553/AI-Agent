@@ -1,0 +1,962 @@
+[
+  {
+    "instruction": "Is the fee paid annually or per semester?",
+    "input": "Fee payment frequency at Adamas University",
+    "output": "At Adamas University, fees are typically paid on a per-semester basis."
+  },
+  {
+    "instruction": "What is the deadline for fee payment?",
+    "input": "Odd and Even semester payment dates",
+    "output": "The fee payment window for the Odd Semester is generally from October 15th to November 15th, and for the Even Semester, it is from March 15th to April 15th."
+  },
+  {
+    "instruction": "Can I pay the fees in installments?",
+    "input": "Installment facility for university fees",
+    "output": "Currently, Adamas University does not offer an installment facility; the semester fees must be paid in full by the stipulated deadline."
+  },
+  {
+    "instruction": "Are there any additional lab or library fees?",
+    "input": "Extra charges for facilities",
+    "output": "No, there are no separate additional charges for lab or library usage, as these facilities are included in the overall academic structure."
+  },
+  {
+    "instruction": "How can I pay the fees online?",
+    "input": "Online payment methods and portal",
+    "output": "Fees can be paid conveniently through the official Adamas University Student Portal using various online payment methods."
+  },
+  {
+    "instruction": "Is the admission fee refundable if I withdraw?",
+    "input": "Refund policy upon withdrawal",
+    "output": "In the event of a withdrawal, a processing fee will be deducted, and the remaining amount will be refunded in accordance with the university’s refund policy."
+  },
+  {
+    "instruction": "Are there any hidden charges I should know about?",
+    "input": "Transparency in fee structure",
+    "output": "No, Adamas University maintains full transparency, and there are no hidden charges beyond the fees mentioned in the official structure."
+  },
+  {
+    "instruction": "What is the examination fee per semester?",
+    "input": "Exam costs and semester fees",
+    "output": "The examination fee is already included within the consolidated semester fee, so no separate payment is required for regular end-term exams."
+  },
+  {
+    "instruction": "What is the late fee penalty?",
+    "input": "Fine for delayed fee payment",
+    "output": "If the fee is paid after the deadline, a late fine of ₹500 is charged for the first day of delay, followed by an additional penalty of ₹250 for each subsequent day."
+  },
+  {
+    "instruction": "Do international students have a different fee structure?",
+    "input": "Foreign student fees vs domestic",
+    "output": "No, the fee structure for international students at Adamas University remains the same as that for domestic students."
+  },
+  {
+    "instruction": "Does the fee increase every year?",
+    "input": "Annual fee hike policy",
+    "output": "Any adjustment to the fee structure is subject to the university's management decisions and will be notified to the students accordingly."
+  },
+  {
+    "instruction": "When does the admission process start?",
+    "input": "New session admission timeline",
+    "output": "The admission process at Adamas University typically commences in the early months of the calendar year, usually around January or February, for the upcoming academic session."
+  },
+  {
+    "instruction": "What is the last date to submit the application form?",
+    "input": "Application deadlines",
+    "output": "The deadline for submitting application forms varies depending on the specific course and the phase of admissions. We recommend checking the 'Admissions' section on the official Adamas University website for the most current dates."
+  },
+  {
+    "instruction": "What are the eligibility criteria for courses?",
+    "input": "General UG and PG entry requirements",
+    "output": "Eligibility criteria depend on the specific program. Generally, for Undergraduate courses, a pass in 10+2 from a recognized board is required, while for Postgraduate courses, a relevant Bachelor's degree is necessary."
+  },
+  {
+    "instruction": "Is there an entrance exam for admission?",
+    "input": "AUAT and national level exam acceptance",
+    "output": "Yes, Adamas University conducts the Adamas University Admission Test (AUAT) for several programs. Additionally, scores from national-level exams like JEE Main, GATE, MAT, CAT, or CLAT are also accepted for relevant courses."
+  },
+  {
+    "instruction": "How can I apply online?",
+    "input": "Online application process and website",
+    "output": "To apply online, please visit the official Adamas University website (www.adamasuniversity.ac.in), click on the 'Apply Now' button, register with your details, fill out the application form, and pay the prescribed fee."
+  },
+  {
+    "instruction": "What documents are required for admission?",
+    "input": "Required paperwork for registration",
+    "output": "The standard documents required include 10th and 12th-grade mark sheets/certificates, graduation transcripts (for PG), valid ID proof (Aadhaar Card), recent passport-size photographs, and a medical fitness certificate."
+  },
+  {
+    "instruction": "What is the minimum percentage required for admission?",
+    "input": "Aggregate score requirements",
+    "output": "The minimum percentage varies; however, most programs require a minimum aggregate of 50% to 60% in your previous qualifying examination. Professional courses may have higher benchmarks."
+  },
+  {
+    "instruction": "Can I apply for more than one course?",
+    "input": "Multiple course applications",
+    "output": "Yes, you are permitted to apply for more than one course at Adamas University; however, you will need to submit separate application forms and fees for each program."
+  },
+  {
+    "instruction": "What should I do if my payment failed during registration?",
+    "input": "Payment failure and technical help",
+    "output": "If a payment fails, wait for 24 hours for a status update. If the amount was debited but the portal shows 'Failed', contact the Adamas University Admission Helpdesk with your transaction ID for assistance."
+  },
+  {
+    "instruction": "What is the average salary package for this year?",
+    "input": "Placement statistics and top packages",
+    "output": "While the specific average salary for the current year is not explicitly listed, Adamas University has a strong track record. Top packages have reached as high as ₹18 LPA, with students securing competitive offers across various industries."
+  },
+  {
+    "instruction": "Which companies visited the campus last year?",
+    "input": "Recruiters and corporate partners",
+    "output": "A wide range of prestigious companies visit Adamas University, including industry leaders such as TCS, Cognizant, Wipro, Infosys, Capgemini, Deloitte, and many others in IT, management, and engineering."
+  },
+  {
+    "instruction": "Do you have a dedicated placement cell?",
+    "input": "Career Development Cell (CDC) functions",
+    "output": "Yes, Adamas University has a highly active Career Development Cell (CDC). The CDC bridges the gap between academia and industry by organizing recruitment drives, networking events, and corporate interactions."
+  },
+  {
+    "instruction": "What percentage of students get placed every year?",
+    "input": "Placement success rates",
+    "output": "Adamas University maintains a high placement percentage. While figures vary by department, the university strives for maximum placement excellence, with many departments achieving near-total placement for eligible students."
+  },
+  {
+    "instruction": "Does the college provide training for interviews?",
+    "input": "Mock interviews and soft-skills workshops",
+    "output": "Yes, the CDC provides comprehensive training, including mock interviews, personality development workshops, resume-building sessions, and soft-skills training to enhance student employability."
+  },
+  {
+    "instruction": "Can I apply for off-campus placements?",
+    "input": "External job opportunities",
+    "output": "Yes, students can apply for off-campus placements, though the university encourages participation in on-campus drives for a more supported and streamlined career transition."
+  },
+  {
+    "instruction": "What are the hostel fees per year?",
+    "input": "Residential costs and concessions for 2024-25",
+    "output": "For the 2024-25 academic session, Adamas University hostel fees range approximately from ₹66,600 to ₹1,35,000 per annum for lodging. The exact cost depends on your choice of room (AC/Non-AC and occupancy). Mess charges are extra. Note: You get a ₹30,000 concession in the second year and a 10% concession in the third year."
+  },
+  {
+    "instruction": "Are there separate hostels for boys and girls?",
+    "input": "Hostel safety and gender-wise allocation",
+    "output": "Yes, Adamas University provides entirely separate and secure hostel buildings for male and female students."
+  },
+  {
+    "instruction": "Can I choose my roommate?",
+    "input": "Room allotment and roommate preference",
+    "output": "Yes, the university generally allows students the flexibility to choose their roommates, subject to availability and mutual agreement during the allotment process."
+  },
+  {
+    "instruction": "What are the room types (Single/Double/AC)?",
+    "input": "Accommodation varieties",
+    "output": "Adamas University offers a variety of accommodation options, including Single, Double, Triple, and Four-bed rooms, available in both AC and Non-AC categories."
+  },
+  {
+    "instruction": "Is Wi-Fi available in the hostel rooms?",
+    "input": "Internet access in residential blocks",
+    "output": "Yes, high-speed Wi-Fi connectivity is provided throughout the hostel rooms to support students' academic needs."
+  },
+  {
+    "instruction": "How is the security in the hostel?",
+    "input": "24/7 surveillance and wardens",
+    "output": "Adamas University maintains a high level of security with 24/7 surveillance and dedicated wardens to ensure a safe and protected living environment."
+  },
+  {
+    "instruction": "How do I apply for a hostel room?",
+    "input": "Hostel registration process",
+    "output": "You can apply for hostel accommodation conveniently through the Adamas University official online portal during the admission or registration process."
+  },
+  {
+    "instruction": "Is there a power backup facility?",
+    "input": "Electricity supply in hostels",
+    "output": "Yes, the hostels are equipped with 24/7 power backup facilities to ensure an uninterrupted supply of electricity."
+  },
+  {
+    "instruction": "Is there 24/7 water, electricity, and Wi-Fi?",
+    "input": "Essential amenities availability",
+    "output": "Yes, Adamas University ensures that essential services, including water, electricity, and Wi-Fi, are available to hostel residents 24 hours a day."
+  },
+  {
+    "instruction": "How far is the hostel from the main academic block?",
+    "input": "Campus proximity and walking distance",
+    "output": "The hostels are conveniently located on campus, within a short 5-minute walk from the main academic blocks."
+  },
+  {
+    "instruction": "What are the canteen timings?",
+    "input": "Lunch hours and canteen operation",
+    "output": "The main canteen hours at Adamas University are typically from 12:30 PM to 1:30 PM to accommodate the peak lunch period."
+  },
+  {
+    "instruction": "Is the food hygienic?",
+    "input": "Quality control and food safety",
+    "output": "Yes, Adamas University maintains high standards of cleanliness and hygiene in all food preparation and dining areas to ensure the well-being of students and staff."
+  },
+  {
+    "instruction": "What is the average cost of a meal?",
+    "input": "Menu prices for veg and non-veg",
+    "output": "The average cost of a meal ranges from ₹50 to ₹80, depending on your choice of menu items, such as vegetarian, fish, egg, or chicken options."
+  },
+  {
+    "instruction": "Do you serve both Veg and Non-Veg food?",
+    "input": "Meal types and diet preferences",
+    "output": "Yes, the university canteen provides a variety of both vegetarian and non-vegetarian meal options daily."
+  },
+  {
+    "instruction": "Is there a monthly/yearly mess subscription?",
+    "input": "Mess card system and regular diner plans",
+    "output": "Yes, Adamas University offers mess subscription plans on a monthly or yearly basis for the convenience of regular diners and hostel residents."
+  },
+  {
+    "instruction": "Can I pay for meals using a digital wallet or card?",
+    "input": "UPI and online payments at canteen",
+    "output": "Yes, for ease of transaction, the canteen accepts payments via digital wallets, cards, and other online payment methods."
+  },
+  {
+    "instruction": "Are there healthy or diet food options?",
+    "input": "Nutritious and balanced meal choices",
+    "output": "Yes, the canteen offers healthy food choices to cater to students who prefer nutritious and balanced meal options."
+  },
+  {
+    "instruction": "Is the canteen open on weekends?",
+    "input": "Weekend food availability on campus",
+    "output": "The general campus canteen is typically closed on weekends; however, separate dining facilities and dedicated cooking services are available for students residing in the hostels."
+  },
+  {
+    "instruction": "What are the breakfast, lunch, and dinner options?",
+    "input": "Daily food variety and menu diversity",
+    "output": "Adamas University provides a diverse menu including various options such as eggs, fish, meat, rotis, and paneer dishes to ensure a balanced variety for every meal."
+  },
+  {
+    "instruction": "What is the minimum attendance required?",
+    "input": "Eligibility threshold for exams",
+    "output": "At Adamas University, students are required to maintain a minimum of 75% attendance in each subject to be eligible for examinations."
+  },
+  {
+    "instruction": "What happens if my attendance is low?",
+    "input": "Consequences of falling below 75%",
+    "output": "If a student's attendance falls below the mandatory 75% requirement, they may be debarred from appearing in the end-semester examinations."
+  },
+  {
+    "instruction": "How can I check my daily attendance?",
+    "input": "Monitoring attendance via student portal",
+    "output": "Students can conveniently monitor their daily attendance records through the Adamas University Student Portal."
+  },
+  {
+    "instruction": "Is there any relaxation for medical reasons?",
+    "input": "Attendance waiver for sickness",
+    "output": "Yes, the university may grant a relaxation of up to 10% in attendance for valid medical reasons, provided that authentic medical certificates are submitted to the department."
+  },
+  {
+    "instruction": "Does attendance carry marks in the final result?",
+    "input": "Incentive marks for 75%+ attendance",
+    "output": "Yes, attendance is incentivized at Adamas University. Students who maintain 75% attendance or more receive 5 marks toward their final internal assessment."
+  },
+  {
+    "instruction": "Is biometric attendance used?",
+    "input": "Method of recording attendance",
+    "output": "Yes, Adamas University utilizes a biometric system to ensure accurate and transparent recording of student attendance for every class."
+  },
+  {
+    "instruction": "Will my parents be notified about low attendance?",
+    "input": "Parental notification policy",
+    "output": "Yes, the university sends monthly attendance reports to parents to keep them informed of their ward's academic regularity and progress."
+  },
+  {
+    "instruction": "Can I make up for low attendance through extra classes?",
+    "input": "Compensating missed lectures",
+    "output": "No, the university does not typically provide extra classes specifically for the purpose of compensating for missed attendance."
+  },
+  {
+    "instruction": "Is attendance calculated per subject or overall?",
+    "input": "Subject-wise vs aggregate attendance",
+    "output": "Attendance at Adamas University is calculated individually for each subject rather than on an overall percentage basis."
+  },
+  {
+    "instruction": "Does the attendance reset every semester?",
+    "input": "New semester attendance count",
+    "output": "Yes, your attendance record is reset to zero at the beginning of every new academic semester."
+  },
+  {
+    "instruction": "What if a teacher forgets to mark my attendance?",
+    "input": "Rectifying attendance errors",
+    "output": "In such cases, you should immediately inform the respective faculty member and provide proof of your presence during that specific class to rectify the record."
+  },
+  {
+    "instruction": "Can I sit for exams if I have exactly 73% to 74% attendance?",
+    "input": "Exceptional cases for low attendance",
+    "output": "While the official rule strictly requires 75%, cases falling slightly short (73-74%) may be considered for review by university authorities under exceptional circumstances, though approval is not guaranteed."
+  },
+  {
+    "instruction": "When is the exam timetable released?",
+    "input": "Examination schedule announcement",
+    "output": "The examination timetable at Adamas University is typically released approximately 1 to 2 weeks before the commencement of the exams."
+  },
+  {
+    "instruction": "What is the passing mark for each subject?",
+    "input": "Minimum score to pass a course",
+    "output": "To successfully pass a subject, students are generally required to achieve a minimum score of 50%."
+  },
+  {
+    "instruction": "What is the procedure for back-log (re-appear) exams?",
+    "input": "Backlog registration and fees (₹3000 + ₹5000)",
+    "output": "To apply for a back-log exam, students must pay a registration fee of ₹3,000, along with a re-examination fee of ₹5,000 per subject. After completing the registration, you can download your admit card from the official Adamas University portal and appear for the exam on the scheduled date."
+  },
+  {
+    "instruction": "How do I download my Admit Card or Hall Ticket?",
+    "input": "Admit card download via portal",
+    "output": "You can download your Admit Card or Hall Ticket directly from the official Adamas University student portal once it has been issued."
+  },
+  {
+    "instruction": "What are the rules inside the examination hall?",
+    "input": "Exam hall code of conduct and penalties",
+    "output": "Students must strictly adhere to the university's code of conduct during examinations. This includes carrying a valid ID card and admit card, arriving on time, and refraining from bringing any unauthorized materials, electronic devices, or mobile phones into the hall. Any form of malpractice may lead to the cancellation of the examination or expulsion from the university."
+  },
+  {
+    "instruction": "When will the semester results be declared?",
+    "input": "Result publication timeline",
+    "output": "According to university regulations, semester results are typically published within twenty days after the last day of the examination."
+  },
+  {
+    "instruction": "Is there a supplementary exam held every year?",
+    "input": "Supplementary tests for clearing backlogs",
+    "output": "Yes, Adamas University conducts supplementary examinations annually for students who need to clear their back-log subjects."
+  },
+  {
+    "instruction": "What is the fee for a backlog and debarred exam?",
+    "input": "Fee structure for failed subjects",
+    "output": "The fee structure for backlog and debarred exams consists of a ₹3,000 registration fee and a ₹5,000 fee for each individual subject."
+  },
+  {
+    "instruction": "Who is the Head of the Department?",
+    "input": "Finding departmental HOD information",
+    "output": "The Head of the Department varies depending on your specific branch of study. For precise information, please refer to the departmental directory on the Adamas University website or visit your respective department office."
+  },
+  {
+    "instruction": "Who is the Dean of the SOET department?",
+    "input": "Head of Engineering and Technology",
+    "output": "The Dean of the School of Engineering and Technology (SOET) at Adamas University is Prof. (Dr.) Sajal Saha."
+  },
+  {
+    "instruction": "Do teachers help with project work?",
+    "input": "Faculty mentorship and project support",
+    "output": "Yes, the faculty members at Adamas University actively mentor and guide students throughout their project work, providing necessary academic and technical support to ensure successful completion."
+  },
+  {
+    "instruction": "What are the standard college hours?",
+    "input": "Academic schedule (9:30 AM to 5:30 PM)",
+    "output": "The standard academic hours at Adamas University are from 9:30 AM to 5:30 PM."
+  },
+  {
+    "instruction": "Is the college open on Saturdays and Sundays?",
+    "input": "Weekend campus operations",
+    "output": "Adamas University is generally closed for regular student classes on Saturdays and Sundays."
+  },
+  {
+    "instruction": "What is the duration of one lecture?",
+    "input": "Class time duration",
+    "output": "The typical duration for a single lecture at Adamas University is 1 hour."
+  },
+  {
+    "instruction": "When is the lunch break?",
+    "input": "Standard break timing (12:30-1:30)",
+    "output": "Lunch break timing is generally scheduled between 12:30 PM to 1:30 PM."
+  },
+  {
+    "instruction": "What are the library timings?",
+    "input": "Library and reading room access",
+    "output": "The library is available for student use during university hours; please check with the librarian for specific extended reading room timings."
+  },
+  {
+    "instruction": "Are labs open after college hours?",
+    "input": "Evening laboratory access",
+    "output": "No, the laboratories at Adamas University typically remain closed after the standard college hours."
+  },
+  {
+    "instruction": "Is there a shift system (Morning/Evening)?",
+    "input": "Batch timings and shifts",
+    "output": "No, Adamas University generally operates on a standard full-time academic schedule from 9:30 AM to 5:30 PM rather than a shift system."
+  },
+  {
+    "instruction": "What are the office hours for administrative work?",
+    "input": "Admin office visiting hours",
+    "output": "The administrative offices at Adamas University are open for student queries and paperwork from 9:30 AM to 5:30 PM."
+  },
+  {
+    "instruction": "What time does the hostel mess open and close?",
+    "input": "Hostel meal schedule",
+    "output": "The hostel mess at Adamas University operates during specific slots for breakfast, lunch, snacks, and dinner; refer to the hostel notice board for the exact schedule."
+  },
+  {
+    "instruction": "What scholarships are available for new students?",
+    "input": "Entry scholarships and waivers",
+    "output": "Adamas University offers various scholarship opportunities based on prior academic performance. Students scoring 95% and above may receive a 100% first-semester fee waiver. Additionally, government scholarships like SVMCM (Swami Vivekananda Merit-cum-Means), Aikyashree, and SC/ST scholarships are available."
+  },
+  {
+    "instruction": "Are there any government scholarships like SVMCM or Aikyashree?",
+    "input": "State-funded scholarship availability",
+    "output": "Yes, students at Adamas University can apply for government-funded schemes including SVMCM (Swami Vivekananda Merit-cum-Means), Aikyashree, and various SC/ST scholarship programs."
+  },
+  {
+    "instruction": "How do I apply for a merit-based scholarship?",
+    "input": "Application for academic waivers",
+    "output": "To apply for a merit-based scholarship, you must submit your relevant academic transcripts or entrance exam scorecards during the admission process for evaluation by the scholarship committee."
+  },
+  {
+    "instruction": "What is the procedure for scholarship evaluation?",
+    "input": "Selection process for waivers",
+    "output": "The scholarship committee evaluates your application based on the academic transcripts or entrance exam scores you provide during the admission phase."
+  },
+  {
+    "instruction": "What is the minimum percentage required to maintain a scholarship?",
+    "input": "Renewal criteria for university and state scholarships",
+    "output": "To maintain a University scholarship, you must maintain at least 70% marks. For government scholarships (SVMCM/Aikyashree), the requirement is typically 65% for UG programs and 55% for PG programs."
+  },
+  {
+    "instruction": "What are the marks criteria for keeping my scholarship active?",
+    "input": "Academic targets for scholarship continuation",
+    "output": "You need a minimum of 70% for University scholarships. For government-funded ones, it is 65% for Undergraduate and 55% for Postgraduate students."
+  },
+  {
+    "instruction": "What documents are needed for a scholarship application?",
+    "input": "Documentation for financial aid",
+    "output": "Generally, you need your previous qualifying mark sheets, Aadhaar card, bank passbook, and fee payment receipts. Specific categories may require additional documentation."
+  },
+  {
+    "instruction": "Which documents should I submit to the scholarship office?",
+    "input": "Paperwork for scholarship processing",
+    "output": "Please provide your Aadhaar card, bank passbook, fee receipts, and previous exam mark sheets. Additional documents may be requested based on the specific scholarship type."
+  },
+  {
+    "instruction": "Is there a medical clinic on campus?",
+    "input": "Healthcare facilities for students",
+    "output": "Yes, Adamas University provides a dedicated medical clinic on campus to cater to the healthcare needs of its students."
+  },
+  {
+    "instruction": "Do we have a hospital or pharmacy at Adamas?",
+    "input": "Pharmacy and hospital access",
+    "output": "Adamas University features an on-campus medical clinic and pharmacy for student health services."
+  },
+  {
+    "instruction": "Are there 24/7 ambulance services available?",
+    "input": "Emergency medical transport",
+    "output": "Yes, Adamas University ensures student safety by providing 24/7 ambulance services for any medical emergencies."
+  },
+  {
+    "instruction": "What happens in case of an emergency at night?",
+    "input": "Night-time medical support and transport",
+    "output": "In case of a medical emergency, Adamas University provides round-the-clock (24/7) ambulance services to transport students to the nearest hospital."
+  },
+  {
+    "instruction": "Is a doctor available on-call in the hostel?",
+    "input": "Residential medical assistance",
+    "output": "Yes, medical assistance is available, and a doctor can be reached on-call to provide necessary care for students residing in the Adamas University hostels."
+  },
+  {
+    "instruction": "Can I see a doctor if I fall sick in the hostel?",
+    "input": "Doctor on-call for hostelites",
+    "output": "Absolutely. Adamas University provides an on-call doctor facility specifically for students living in the residential hostels."
+  },
+  {
+    "instruction": "Are basic medicines available for free?",
+    "input": "Free medication and first-aid",
+    "output": "Yes, Adamas University provides basic first-aid and essential medicines free of charge to students at the campus medical center."
+  },
+  {
+    "instruction": "Do I have to pay for first-aid?",
+    "input": "Cost of basic medical care",
+    "output": "No, first-aid and essential basic medications are provided free of cost at the Adamas University campus medical center."
+  },
+  {
+    "instruction": "Do I need to submit a fitness certificate during admission?",
+    "input": "Medical clearance for registration",
+    "output": "Yes, as part of the formal admission process at Adamas University, students are required to submit a valid medical fitness certificate."
+  },
+  {
+    "instruction": "Is a medical checkup required for joining?",
+    "input": "Mandatory fitness certificate",
+    "output": "Yes, submitting a valid medical fitness certificate is a mandatory requirement for completing the admission process at Adamas University."
+  },
+  {
+    "instruction": "What is the dress code for students?",
+    "input": "Uniform or dress requirements",
+    "output": "There is no specific mandatory dress code at Adamas University; however, students are expected to dress in a manner that is appropriate and respectful of an academic environment."
+  },
+  {
+    "instruction": "Is ragging strictly prohibited? What is the anti-ragging policy?",
+    "input": "Zero tolerance and student affidavit",
+    "output": "Yes, Adamas University maintains a zero-tolerance anti-ragging policy. Students are required to submit a signed affidavit to ensure a safe and welcoming campus for everyone."
+  },
+  {
+    "instruction": "Are mobile phones allowed in the classroom?",
+    "input": "Usage policy for mobile devices",
+    "output": "Students are permitted to carry mobile phones on the Adamas University campus, but their use is strictly prohibited during classes to ensure an uninterrupted learning experience."
+  },
+  {
+    "instruction": "What is the policy on smoking and alcohol inside the campus?",
+    "input": "Campus discipline regarding substances",
+    "output": "Adamas University is a strictly smoke-free and alcohol-free campus. The consumption or possession of such substances is absolutely prohibited."
+  },
+  {
+    "instruction": "Are students allowed to bring their own vehicles?",
+    "input": "Personal vehicle permission",
+    "output": "Yes, students of Adamas University are allowed to bring their own personal vehicles to the campus."
+  },
+  {
+    "instruction": "Is there a parking fee for student vehicles?",
+    "input": "Cost of campus parking",
+    "output": "No, Adamas University currently provides parking facilities for students free of charge."
+  },
+  {
+    "instruction": "Can I bring a laptop to the class?",
+    "input": "Laptops for academic use",
+    "output": "Yes, you are welcome to bring a laptop to class at Adamas University for academic purposes, research, and note-taking."
+  },
+  {
+    "instruction": "Is it mandatory to wear the ID card at all times?",
+    "input": "Campus ID card policy",
+    "output": "Yes, for security and identification purposes, it is mandatory for all students to wear and display their Adamas University ID card at all times while on campus."
+  },
+  {
+    "instruction": "What are the penalties for damaging college property?",
+    "input": "Fine for property damage",
+    "output": "Any damage to Adamas University property is taken seriously, and penalties are determined based on the nature and extent of the damage caused."
+  },
+  {
+    "instruction": "Are outside visitors allowed on campus?",
+    "input": "Visitor access and verification",
+    "output": "Only authorized visitors, such as parents or local guardians, are permitted on the Adamas University campus after completing the necessary security verification at the gate."
+  },
+  {
+    "instruction": "Does the university provide a bus service for students?",
+    "input": "Transportation support",
+    "output": "Yes, Adamas University provides comprehensive bus support for students from Monday to Friday."
+  },
+  {
+    "instruction": "Is there any transport facility for students?",
+    "input": "Daily commute options",
+    "output": "Yes, Adamas University provides comprehensive bus support for students from Monday to Friday."
+  },
+  {
+    "instruction": "What is the schedule for the college bus?",
+    "input": "Arrival and departure times (9:30 AM / 5:30 PM)",
+    "output": "The college buses operate from Monday to Friday, with an arrival time at the campus of 9:30 AM and a departure time of 5:30 PM."
+  },
+  {
+    "instruction": "What is the annual/semester fee for the transport service?",
+    "input": "Bus pass costs based on location",
+    "output": "The transport fee varies based on your specific pickup and drop-off locations. We recommend checking the fee structure manually or contacting the transport department for precise details."
+  },
+  {
+    "instruction": "How do I apply for a bus pass?",
+    "input": "Applying for transport via portal",
+    "output": "To apply for a bus pass, please visit the official university online portal and complete the necessary application forms."
+  },
+  {
+    "instruction": "Is there a GPS tracking system for the college buses?",
+    "input": "Bus safety and tracking",
+    "output": "Yes, the university buses are equipped with a GPS tracking system to ensure the safety and convenience of our students."
+  },
+  {
+    "instruction": "Can I pay the transport fee in installments?",
+    "input": "Payment flexibility for bus fees",
+    "output": "Currently, the transport fee must be paid in full as per the notified deadlines; payment in installments is not permitted."
+  },
+  {
+    "instruction": "Are the buses air-conditioned (AC) or non-AC?",
+    "input": "Bus fleet details",
+    "output": "The university transport fleet currently consists of non-AC buses."
+  },
+  {
+    "instruction": "Does the college provide transport for industrial visits or field trips?",
+    "input": "Field trip and industrial visit transport",
+    "output": "Yes, the university provides transport facilities for organized industrial visits and academic field trips as part of the curriculum."
+  },
+  {
+    "instruction": "When do the buses reach the campus?",
+    "input": "Morning arrival time (9:30 AM)",
+    "output": "The college buses arrive at the campus by 9:30 AM from Monday to Friday."
+  },
+  {
+    "instruction": "What are the courses offered in the School of Engineering & Technology (SOET)?",
+    "input": "B.Tech, BCA, MCA, and M.Tech streams",
+    "output": "Adamas University's SOET offers B.Tech (CSE, Biotechnology, Civil, Electrical, ECE, ME), BCA (Hons), MCA, and M.Tech in Computer Science."
+  },
+  {
+    "instruction": "What is the fee and eligibility for B.Tech Computer Science (CSE)?",
+    "input": "CSE fee (₹8,90,000) and entrance exams",
+    "output": "The approximate total fee for B.Tech CSE is ₹8,90,000. Eligibility requires 10+2 with 60% in PCM, plus a valid score in WBJEE, JEE Main, or AUAT."
+  },
+  {
+    "instruction": "Tell me about the MCA course details.",
+    "input": "MCA seats (60) and total fee (₹2,81,000)",
+    "output": "The MCA program has 60 seats with a total fee of ₹2,81,000. Eligibility requires a BCA, B.Sc, or B.Com degree with Mathematics and at least 55% marks."
+  },
+  {
+    "instruction": "What is the eligibility criteria for BCA (Hons)?",
+    "input": "BCA entry requirements and subjects",
+    "output": "For BCA (Hons), students must have completed 10+2 with at least 60% marks and must have studied Mathematics, Statistics, or Computer Science."
+  },
+  {
+    "instruction": "What are the fees for B.Tech Biotechnology?",
+    "input": "Biotech total fee (₹8,15,000)",
+    "output": "The approximate total fee for the B.Tech Biotechnology program is ₹8,15,000."
+  },
+  {
+    "instruction": "How many seats are available for M.Tech (CSE)?",
+    "input": "M.Tech CSE intake and fees",
+    "output": "There are 10 seats available for the M.Tech (CSE) program, with a total fee of ₹3,08,000."
+  },
+  {
+    "instruction": "What is the fee for Civil Engineering at Adamas University?",
+    "input": "Civil B.Tech total cost (₹4,15,000)",
+    "output": "The B.Tech in Civil Engineering has a total fee of approximately ₹4,15,000."
+  },
+  {
+    "instruction": "What are the eligibility requirements for M.Tech CSE?",
+    "input": "Postgrad engineering entry",
+    "output": "Candidates need a B.E or B.Tech degree with at least 60% marks and a valid score in GATE or AUAT."
+  },
+  {
+    "instruction": "Which B.Tech streams have a fee between 4.6 and 5.7 lakhs?",
+    "input": "Low fee B.Tech options (EE, ECE, ME)",
+    "output": "B.Tech in Electrical, ECE, and Mechanical Engineering (ME) have fees ranging from ₹4,68,000 to ₹5,71,000."
+  },
+  {
+    "instruction": "What are the seat capacities for BCA and MCA?",
+    "input": "IT department intake (150 and 60 seats)",
+    "output": "BCA (Hons) has an intake of 150 seats, while the MCA program has 60 seats."
+  },
+  {
+    "instruction": "What courses are offered by the School of Business & Economics (SOB/SOBE)?",
+    "input": "Business, Commerce, and MBA programs",
+    "output": "Adamas University's School of Business & Economics offers BBA (Hons), B.Com (Hons), B.Sc Economics, and MBA with specializations in General and Analytics."
+  },
+  {
+    "instruction": "What is the fee and eligibility for the BBA (Hons) program?",
+    "input": "BBA fee (₹7,47,000) and entry criteria",
+    "output": "The total approximate fee for BBA (Hons) is ₹7,47,000. Students from any stream are eligible if they have secured at least 60% in their 10+2 examinations."
+  },
+  {
+    "instruction": "Tell me about the MBA program at Adamas University.",
+    "input": "MBA fees (₹7,33,000) and accepted exams (CAT/MAT/XAT)",
+    "output": "The MBA (General/Analytics) has 60 seats with a total fee of ₹7,33,000. Candidates need a graduation degree (50-60%) and a valid score in CAT, MAT, XAT, or AUAT."
+  },
+  {
+    "instruction": "What is the eligibility for B.Sc Economics?",
+    "input": "Entry for Economics honors",
+    "output": "For B.Sc Economics, students need a 10+2 score of 50% or higher and must have studied Mathematics or Statistics as a subject."
+  },
+  {
+    "instruction": "What are the fees for B.Com (Hons)?",
+    "input": "B.Com total cost (₹3,38,000)",
+    "output": "The B.Com (Hons) program has an approximate total fee of ₹3,38,000 for the entire duration."
+  },
+  {
+    "instruction": "How many seats are available in the School of Business?",
+    "input": "SOBE seat intake per course",
+    "output": "The School of Business & Economics has 120 seats for BBA, 50 for B.Com, 30 for B.Sc Economics, and 60 for the MBA program."
+  },
+  {
+    "instruction": "Can an Arts student apply for BBA or B.Com?",
+    "input": "Business stream for non-commerce students",
+    "output": "Yes, both BBA (Hons) and B.Com (Hons) at Adamas University are open to students from any stream (Science, Commerce, or Arts) provided they have 60% in 10+2."
+  },
+  {
+    "instruction": "What is the fee difference between BBA and B.Com?",
+    "input": "Comparison of BBA (₹7,47,000) vs B.Com (₹3,38,000)",
+    "output": "The BBA (Hons) fee is approximately ₹7,47,000, while the B.Com (Hons) fee is significantly lower at ₹3,38,000."
+  },
+  {
+    "instruction": "What entrance exams are accepted for MBA admission?",
+    "input": "MBA selection criteria",
+    "output": "Adamas University accepts CAT, MAT, XAT, and its own AUAT entrance exam scores for MBA admissions."
+  },
+  {
+    "instruction": "What law courses are available at Adamas University?",
+    "input": "BA LL.B, BBA LL.B, and LLM details",
+    "output": "The School of Law & Justice (SOLJ) offers BA LL.B (Hons), BBA LL.B (Hons), and a postgraduate LLM program."
+  },
+  {
+    "instruction": "What is the fee and eligibility for BA LL.B (Hons)?",
+    "input": "BA LL.B fee (₹9,74,000) and CLAT/AUAT",
+    "output": "The approximate total fee for BA LL.B (Hons) is ₹9,74,000. Eligibility requires 10+2 with at least 60% marks and a valid score in CLAT or AUAT."
+  },
+  {
+    "instruction": "Tell me about the BBA LL.B (Hons) course.",
+    "input": "BBA LL.B seats (60) and fee (₹9,74,000)",
+    "output": "BBA LL.B (Hons) at Adamas University has 60 seats with a total fee of ₹9,74,000. Candidates must have 60% in 10+2 and qualify in CLAT or AUAT."
+  },
+  {
+    "instruction": "What is the fee for the LLM program?",
+    "input": "Master of Laws total fee (₹2,58,000)",
+    "output": "The postgraduate LLM program has an approximate total fee of ₹2,58,000 for the entire course."
+  },
+  {
+    "instruction": "What is the eligibility criteria for LLM?",
+    "input": "Postgrad Law admission",
+    "output": "To apply for LLM, candidates must have an LLB degree from a recognized university with a minimum of 50% marks."
+  },
+  {
+    "instruction": "How many seats are available in the law department?",
+    "input": "SOLJ intake capacity",
+    "output": "There are 60 seats each for BA LL.B (Hons) and BBA LL.B (Hons), and 30 seats available for the LLM program."
+  },
+  {
+    "instruction": "Do I need to give CLAT for admission to law at Adamas University?",
+    "input": "Legal entrance exam requirements",
+    "output": "Yes, for UG law courses like BA LL.B and BBA LL.B, admission is based on your performance in CLAT or the university's own AUAT entrance exam."
+  },
+  {
+    "instruction": "Are the fees for BA LL.B and BBA LL.B the same?",
+    "input": "Comparing Law UG fees",
+    "output": "Yes, both BA LL.B (Hons) and BBA LL.B (Hons) have the same approximate total fee of ₹9,74,000."
+  },
+  {
+    "instruction": "What courses are available in the School of Medical Sciences (SOMS)?",
+    "input": "Pharmacy, BMLT, and Optometry programs",
+    "output": "The School of Medical Sciences (SOMS) at Adamas University offers B.Pharma, B.Sc Medical Lab Tech (BMLT), Bachelor of Optometry, and D.Pharma."
+  },
+  {
+    "instruction": "What is the fee and eligibility for B.Pharma?",
+    "input": "B.Pharma total fee (₹9,56,000) and intake (100)",
+    "output": "The B.Pharma program has 100 seats with an approximate total fee of ₹9,56,000. Eligibility is 10+2 with 60% in PCB or PCM."
+  },
+  {
+    "instruction": "Tell me about the B.Sc Medical Lab Tech (BMLT) course.",
+    "input": "BMLT fee (₹4,92,000) and seats (60)",
+    "output": "The BMLT course has 60 seats and a total fee of ₹4,92,000. Students need 10+2 with 50% in PCB to be eligible."
+  },
+  {
+    "instruction": "What is the fee for the Bachelor of Optometry?",
+    "input": "Optometry total cost (₹3,60,000)",
+    "output": "The Bachelor of Optometry program at Adamas University costs approximately ₹3,60,000 for the full course."
+  },
+  {
+    "instruction": "How many seats are there for D.Pharma and what is the fee?",
+    "input": "D.Pharma intake (60) and cost (₹3,36,000)",
+    "output": "There are 60 seats available for the D.Pharma (Diploma in Pharmacy) with a total fee of ₹3,36,000."
+  },
+  {
+    "instruction": "What is the eligibility for the Diploma in Pharmacy (D.Pharma)?",
+    "input": "Entry for Diploma in Pharmacy",
+    "output": "To apply for D.Pharma, students must have completed 10+2 in the Science stream."
+  },
+  {
+    "instruction": "Which pharmacy courses does Adamas University offer?",
+    "input": "Degrees and Diplomas in Pharmacy",
+    "output": "Adamas University offers both a 4-year B.Pharma degree and a 2-year D.Pharma diploma through the School of Medical Sciences."
+  },
+  {
+    "instruction": "What is the intake capacity for Bachelor of Optometry?",
+    "input": "Optometry seat count (40)",
+    "output": "The total seat capacity for the Bachelor of Optometry program is 40 seats."
+  },
+  {
+    "instruction": "What courses are available in the School of Basic & Applied Sciences (SOBAS)?",
+    "input": "Physics, Chemistry, Math and Forensic programs",
+    "output": "Adamas University's SOBAS offers B.Sc (Hons) in Forensic Science, Physics, Chemistry, and Mathematics, as well as M.Sc programs in Physics, Chemistry, and Mathematics."
+  },
+  {
+    "instruction": "Tell me about the B.Sc (Hons) Forensic Science course.",
+    "input": "Forensic Science fee (₹5,89,000) and intake (40)",
+    "output": "The B.Sc (Hons) Forensic Science program has 40 seats. The total fee is approximately ₹5,89,000, and eligibility requires 10+2 with 50% marks in PCM or PCB."
+  },
+  {
+    "instruction": "What is the fee for B.Sc (Hons) Physics, Chemistry, or Mathematics?",
+    "input": "Pure science honors fee (₹2,95,000)",
+    "output": "For B.Sc (Hons) in Physics, Chemistry, or Mathematics, the approximate total fee is ₹2,95,000."
+  },
+  {
+    "instruction": "What is the eligibility for M.Sc programs in SOBAS?",
+    "input": "Postgrad Science entry",
+    "output": "To apply for M.Sc in Physics, Chemistry, or Mathematics, you need a B.Sc (Hons) in the relevant subject with at least 50% marks."
+  },
+  {
+    "instruction": "How many seats are there for M.Sc Physics, Chemistry, and Math combined?",
+    "input": "M.Sc SOBAS total intake (245 seats)",
+    "output": "There are a total of 245 seats available across the M.Sc programs in Physics, Chemistry, and Mathematics."
+  },
+  {
+    "instruction": "What is the fee range for M.Sc courses in the School of Basic & Applied Sciences?",
+    "input": "Cost of M.Sc programs (₹1,93,000 to ₹3,71,000)",
+    "output": "The total fees for M.Sc programs in SOBAS range approximately from ₹1,93,000 to ₹3,71,000, depending on the specialization."
+  },
+  {
+    "instruction": "What is the seat intake for UG Science honors courses?",
+    "input": "UG Pure Science seat distribution",
+    "output": "Forensic Science has 40 seats, while Physics, Chemistry, and Mathematics honors programs have 30 seats each."
+  },
+  {
+    "instruction": "Can I apply for Forensic Science if I had PCB in 10+2?",
+    "input": "Forensic science entry for Bio students",
+    "output": "Yes, you are eligible for B.Sc (Hons) Forensic Science if you have completed 10+2 with 50% marks in either PCM (Physics, Chemistry, Math) or PCB (Physics, Chemistry, Biology)."
+  },
+  {
+    "instruction": "What courses are available in the School of Liberal Arts & Cultural Studies (SOLACS)?",
+    "input": "English, Psychology, and Media Arts",
+    "output": "Adamas University's SOLACS offers BA (Hons) in English and Psychology, B.A. in Journalism & Mass Communication, and a B.Ed program."
+  },
+  {
+    "instruction": "What is the fee and eligibility for BA (Hons) English or Psychology?",
+    "input": "Arts fee (₹1,87,000 to ₹4,05,000)",
+    "output": "The total fees for BA (Hons) English or Psychology range from ₹1,87,000 to ₹4,05,000. The eligibility is 10+2 with 50% marks in any stream."
+  },
+  {
+    "instruction": "Tell me about the Journalism and Mass Communication course.",
+    "input": "B.A. Journalism fee (₹4,92,000) and seats (40)",
+    "output": "The B.A. in Journalism & Mass Communication has 40 seats with a total fee of ₹4,92,000. Students from any stream with 50% in 10+2 are eligible to apply."
+  },
+  {
+    "instruction": "What are the details for the B.Ed program?",
+    "input": "B.Ed fee (₹2,10,000) and entry test",
+    "output": "The B.Ed program at Adamas University has 100 seats and a total fee of ₹2,10,000. Eligibility requires a Graduation degree with 50% marks plus clearing the Entrance Test."
+  },
+  {
+    "instruction": "How many seats are available in the Liberal Arts department?",
+    "input": "SOLACS intake (60 / 40 / 100)",
+    "output": "In SOLACS, there are 60 seats for BA (Hons) programs, 40 seats for Journalism, and 100 seats for the B.Ed program."
+  },
+  {
+    "instruction": "Can a commerce student apply for BA English or Journalism?",
+    "input": "Arts courses for non-humanities students",
+    "output": "Yes, students from any stream (Arts, Science, or Commerce) with at least 50% in 10+2 are eligible for BA (Hons) English, Psychology, and Journalism & Mass Communication."
+  },
+  {
+    "instruction": "What are the courses offered by the School of Life Science & Biotechnology (SOLB)?",
+    "input": "Biotech, Microbiology, and Biochemistry details",
+    "output": "Adamas University's SOLB offers B.Sc (Hons) in Biotechnology, Microbiology, and Biochemistry, as well as M.Sc in Biotechnology and Microbiology."
+  },
+  {
+    "instruction": "What is the fee and eligibility for B.Sc (Hons) Biotechnology?",
+    "input": "Biotech B.Sc cost (₹6,50,000) and intake (90)",
+    "output": "The total fee for B.Sc (Hons) Biotechnology is approximately ₹6,50,000. Eligibility requires 10+2 with 60% marks in PCB or PCM."
+  },
+  {
+    "instruction": "Tell me about the B.Sc Microbiology course.",
+    "input": "Microbiology fee (₹5,94,000) and seats (60)",
+    "output": "B.Sc (Hons) Microbiology has 60 seats with a total fee of ₹5,94,000. Students need 10+2 with at least 50% marks in PCB or PCM to be eligible."
+  },
+  {
+    "instruction": "What are the details for M.Sc Microbiology?",
+    "input": "Postgrad Microbio fee (₹3,63,000)",
+    "output": "M.Sc Microbiology has an intake of 20 seats and a total fee of ₹3,63,000. Eligibility requires a B.Sc in Microbiology or Life Science with at least 50% marks."
+  },
+  {
+    "instruction": "What is the cheapest B.Sc course in SOLB?",
+    "input": "Budget Life Science degree (Biochemistry ₹4,10,000)",
+    "output": "The B.Sc (Hons) Biochemistry program is the most affordable in SOLB, with a total fee of approximately ₹4,10,000 for 30 seats."
+  },
+  {
+    "instruction": "What is the eligibility for M.Sc Biotechnology?",
+    "input": "Master of Science in Biotech fee (₹3,25,000)",
+    "output": "For M.Sc Biotechnology, you need a B.Sc in Biotechnology or Life Science with a minimum of 50% marks. The total fee is ₹3,25,000."
+  },
+  {
+    "instruction": "How many seats are available in the School of Life Science & Biotechnology?",
+    "input": "SOLB departmental intake distribution",
+    "output": "The total seat intake for SOLB includes 90 for B.Sc Biotechnology, 60 for B.Sc Microbiology, 30 for B.Sc Biochemistry, 30 for M.Sc Biotechnology, and 20 for M.Sc Microbiology."
+  },
+  {
+    "instruction": "Is 50% marks enough for B.Sc Biochemistry?",
+    "input": "Biochemistry entry criteria",
+    "output": "Yes, for B.Sc (Hons) Biochemistry, the eligibility criteria is 10+2 with 50% marks in PCB or PCM."
+  },
+  {
+    "instruction": "What courses are available in the School of Media & Communication (SOMC)?",
+    "input": "Graphics, Animation, and Journalism programs",
+    "output": "The School of Media & Communication (SOMC) at Adamas University offers B.A. (Hons) in Journalism & Mass Communication, B.Sc in Graphics & Animation, and an M.A. in Journalism & Mass Communication."
+  },
+  {
+    "instruction": "What is the fee and eligibility for B.A. (Hons) Journalism & Mass Comm?",
+    "input": "UG Journalism fee (₹4,92,000) and seats (60)",
+    "output": "The total fee for B.A. Journalism & Mass Comm is ₹4,92,000. To be eligible, you need to have completed 10+2 with at least 50% marks from any stream."
+  },
+  {
+    "instruction": "Tell me about the Graphics and Animation course.",
+    "input": "B.Sc Animation fee (₹4,10,000) and intake (40)",
+    "output": "Adamas University offers a B.Sc in Graphics & Animation with 40 seats. The approximate total fee is ₹4,10,000, and eligibility is 10+2 with 50% marks in any stream."
+  },
+  {
+    "instruction": "What is the post-graduate option in the Media school?",
+    "input": "M.A. Journalism fee (₹2,20,000) and seats (20)",
+    "output": "For post-graduation, SOMC offers an M.A. in Journalism & Mass Communication. It has 20 seats, a total fee of ₹2,20,000, and requires graduation with 50% marks."
+  },
+  {
+    "instruction": "How many seats are available in the Journalism department?",
+    "input": "Media student capacity (UG and PG)",
+    "output": "There are 60 seats available for the UG B.A. (Hons) Journalism program and 20 seats for the PG M.A. Journalism program."
+  },
+  {
+    "instruction": "Can a Commerce or Science student apply for Media courses?",
+    "input": "Media entry for diverse streams",
+    "output": "Yes, for both B.A. Journalism and B.Sc Graphics & Animation, students from any stream are eligible as long as they have 50% in their 10+2 exams."
+  },
+  {
+    "instruction": "What is the cheapest course in the School of Media & Communication?",
+    "input": "Budget options in SOMC (MA Journalism ₹2,20,000)",
+    "output": "The M.A. in Journalism & Mass Communication has the lowest total fee at ₹2,20,000, while for undergraduates, the B.Sc in Graphics & Animation is priced at ₹4,10,000."
+  },
+  {
+    "instruction": "What programs are offered by the School of Smart Agriculture (SOSA)?",
+    "input": "B.Sc and M.Sc Agriculture details",
+    "output": "The School of Smart Agriculture (SOSA) at Adamas University offers a 4-year B.Sc (Hons) in Agriculture and a 2-year M.Sc in Agriculture (Agronomy)."
+  },
+  {
+    "instruction": "What is the fee and eligibility for B.Sc (Hons) Agriculture?",
+    "input": "B.Sc Agriculture cost (₹4,50,000) and intake (80)",
+    "output": "The approximate total fee for B.Sc (Hons) Agriculture is ₹4,50,000. To be eligible, students need 50% in 10+2 with PCB, PCM, or Vocational Agriculture."
+  },
+  {
+    "instruction": "How many seats are available for Agriculture courses?",
+    "input": "SOSA intake capacity (80 UG / 15 PG)",
+    "output": "There are 80 seats available for the B.Sc (Hons) Agriculture program and 15 seats for the M.Sc Agriculture (Agronomy) program."
+  },
+  {
+    "instruction": "Tell me about the M.Sc Agriculture program.",
+    "input": "M.Sc Agronomy fee (₹2,05,000) and entry marks (60%)",
+    "output": "The M.Sc Agriculture (Agronomy) program at Adamas University is a PG course with 15 seats. It costs approximately ₹2,05,000 and requires a B.Sc Agriculture (Hons) degree with at least 60% marks."
+  },
+  {
+    "instruction": "Can a student with a Vocational Agriculture background apply for B.Sc?",
+    "input": "Vocational entry for B.Sc Agriculture",
+    "output": "Yes, Adamas University accepts students with a Vocational Agriculture background for the B.Sc (Hons) Agriculture program, provided they have a minimum of 50% aggregate in 10+2."
+  },
+  {
+    "instruction": "Is Adamas University good for Agriculture?",
+    "input": "Review of School of Smart Agriculture",
+    "output": "Adamas University is considered one of the best private agriculture colleges in West Bengal, featuring a dedicated School of Smart Agriculture (SOSA) that combines classical techniques with futuristic smart-farming technology."
+  },
+  {
+    "instruction": "What courses are offered by the School of Education (SOE)?",
+    "input": "B.Ed, B.A. Education, and M.A. Education",
+    "output": "The School of Education at Adamas University offers B.Ed (Bachelor of Education), B.A. (Hons) in Education, and M.A. in Education."
+  },
+  {
+    "instruction": "What is the fee and eligibility for the B.Ed program?",
+    "input": "B.Ed total cost (₹2,32,000) and B.Tech entry",
+    "output": "The B.Ed program has 100 seats with a total fee of approximately ₹2,32,000. Eligibility requires 50% in Graduation or PG. Candidates with a B.Tech degree need 55% marks with a specialization in Science and Maths."
+  },
+  {
+    "instruction": "Tell me about the B.A. (Hons) Education course.",
+    "input": "B.A. Education fee (₹2,45,000) and intake (40)",
+    "output": "B.A. (Hons) Education is a UG program with 40 seats and a total fee of ₹2,45,000. Students who have completed 10+2 with 50% marks in any stream are eligible to apply."
+  },
+  {
+    "instruction": "What is the fee for M.A. Education?",
+    "input": "Master of Education cost (₹1,55,000)",
+    "output": "The M.A. Education program has a total fee of approximately ₹1,55,000 for the 2-year duration."
+  },
+  {
+    "instruction": "Who is eligible for M.A. Education at Adamas University?",
+    "input": "Postgrad Education entry criteria",
+    "output": "Applicants need an Undergraduate degree in Education (Honours) with 50% marks, or a UG degree in any discipline along with a B.Ed degree."
+  },
+  {
+    "instruction": "Can a B.Tech student apply for B.Ed?",
+    "input": "B.Ed for Engineers (55% criteria)",
+    "output": "Yes, B.Tech students are eligible for the B.Ed program at Adamas University, provided they have at least 55% aggregate marks and a specialization in Science and Mathematics."
+  },
+  {
+    "instruction": "Is there an entrance exam for the B.Ed course?",
+    "input": "AUAT for B.Ed selection",
+    "output": "Yes, admission to the B.Ed program is typically based on the Adamas University Admission Test (AUAT) or a written admission test followed by counseling."
+  }
+]
