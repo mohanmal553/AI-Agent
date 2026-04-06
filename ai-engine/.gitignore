@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 venv/
 fine_tuned_model/
+fine_tuned_model(old)/
 ai-engine/fine_tuned_model/
 *.safetensors
 *.bin

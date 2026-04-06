@@ -104,6 +104,80 @@ text_streamer = TextStreamer(tokenizer)
 _ = model.generate(**inputs, streamer = text_streamer, max_new_tokens = 128, repetition_penalty = 1.2)
 
 
+######################################################################################################################
+
+# Download trained model files
+
+
+import shutil
+from google.colab import files
+
+# 1. Zip the folder (Replace 'fine_tuned_model' with your folder name)
+# This creates a file named 'my_model_download.zip'
+shutil.make_archive("my_model_download", 'zip', "fine_tuned_model")
+
+# 2. Trigger the download to your computer
+files.download("my_model_download.zip")
+
+
+
+
+
+
+
+
+
+
+
+###############################################
+
+# main.py -> (Run the entier model)
+# Tune model and upload in ligtning-AI & run the main.py
+# Test via postman api
+
+import litserve as ls
+from unsloth import FastLanguageModel
+import torch
+
+class AdamasAIAPI(ls.LitAPI):
+    def setup(self, device):
+        # 1. Load the model using the files you uploaded
+        # Make sure the 'model_name' matches the folder where your files are!
+        self.model, self.tokenizer = FastLanguageModel.from_pretrained(
+            model_name = "fine_tuned_model", 
+            max_seq_length = 2048,
+            load_in_4bit = True,
+        )
+        FastLanguageModel.for_inference(self.model)
+
+    def decode_request(self, request):
+        # 2. Extract the question from the JSON body
+        return request.get("question", "")
+
+    def predict(self, question):
+        # 3. Format the prompt for Llama-3.1
+        prompt = f"### Instruction:\n{question}\n\n### Response:\n"
+        inputs = self.tokenizer([prompt], return_tensors = "pt").to("cuda")
+        
+        # Generate the answer
+        outputs = self.model.generate(**inputs, max_new_tokens = 512)
+        return self.tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
+
+    def encode_response(self, output):
+        # 4. Clean the text to send back only the Answer
+        try:
+            answer = output.split("### Response:")[1].strip()
+        except:
+            answer = output
+        return {"answer": answer}
+
+if __name__ == "__main__":
+    # 5. Start the server on Port 8000
+    api = AdamasAIAPI()
+    server = ls.LitServer(api, accelerator="gpu")
+    server.run(port=8000)
+
+
 
 
 
@@ -113,3 +187,5 @@ TrainOutput(global_step=150, training_loss=0.48880773698290186, metrics={'train_
 'train_steps_per_second': 0.317, 'total_flos': 4729862899777536.0, 'train_loss': 0.48880773698290186, 'epoch': 6.25})
 
 
+TrainOutput(global_step=150, training_loss=0.5108600780367851, metrics={'train_runtime': 464.7855, 'train_samples_per_second': 2.582,
+'train_steps_per_second': 0.323, 'total_flos': 4709327577882624.0, 'train_loss': 0.5108600780367851, 'epoch': 6.0})
