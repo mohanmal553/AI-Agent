@@ -71,16 +71,58 @@ export default function ChatWidget({ isOpen, closeChat }) {
     window.speechSynthesis.speak(speech);
   };
 
-  const send = (msg) => {
+  const send = async (msg) => {
     if (!msg.trim()) return;
-    setMessages((prev) => [...prev, { role: "user", text: msg, isNew: false }]);
+
+    setMessages((prev) => [
+      ...prev,
+      { role: "user", text: msg, isNew: false }
+    ]);
+
     setText("");
     setVoiceMode(false);
-    setTimeout(() => {
-      const response = "Great! First, make sure your devices are compatible with Smart Home App. Then, open the app and go to the device connection page.";
-      setMessages((prev) => [...prev, { role: "bot", text: response, isNew: true }]);
-      speak(response);
-    }, 800);
+
+    try {
+      const res = await fetch("https://8000-01kjz5d1wyvdjk73xd3fys2m8w.cloudspaces.litng.ai/predict", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          question: msg
+        })
+      });
+
+      const data = await res.json();
+      const responseText = data.answer;
+
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "bot",
+          text: responseText,
+          isNew: true,
+          showCall: shouldShowCall(responseText)
+        }
+      ]);
+
+      speak(responseText);
+
+    } catch (err) {
+      const fallback = "Something went wrong. Please try again later.";
+
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "bot",
+          text: fallback,
+          isNew: true,
+          showCall: true
+        }
+      ]);
+
+      speak(fallback);
+    }
   };
 
   const startVoice = () => {
@@ -101,6 +143,22 @@ export default function ChatWidget({ isOpen, closeChat }) {
       }
     };
     recognition.onend = () => { setListening(false); setVoiceMode(false); };
+  };
+
+  const shouldShowCall = (text) => {
+    const keywords = [
+      "don't have",
+      "do not have",
+      "not available",
+      "visit official",
+      "official site",
+      "call",
+      "contact"
+    ];
+
+    return keywords.some(k =>
+      text.toLowerCase().includes(k)
+    );
   };
 
   return (
@@ -137,26 +195,116 @@ export default function ChatWidget({ isOpen, closeChat }) {
           </div>
 
           {/* Message Area */}
-          <div ref={scrollRef} className="flex-1 overflow-y-auto p-6 space-y-6 scrollbar-hide bg-[#F7F9FC]">
-            {messages.map((m, i) => (
-              <div key={i} className={`flex items-start gap-3 ${m.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
-                <div className={`w-9 h-9 rounded-full flex-shrink-0 flex items-center justify-center border shadow-sm ${m.role === "user" ? "bg-white border-blue-100 text-blue-500" : "bg-blue-600 border-blue-400 text-white"}`}>
-                  {m.role === "user" ? <FaUserAlt size={14} /> : <FaRobot size={16} />}
+          <div
+            ref={scrollRef}
+            className="relative flex-1 overflow-y-auto p-6 space-y-6 scrollbar-hide bg-[#F7F9FC]"
+          >
+
+            {/* ✅ Watermark Layer */}
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{
+                backgroundImage: "url('/AU.png')",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "300px",
+                opacity: 0.1
+              }}
+            ></div>
+
+            {/* ✅ Chat Content */}
+            <div className="relative z-10">
+              {messages.map((m, i) => (
+                <div
+                  key={i}
+                  className={`flex items-start gap-3 ${m.role === "user" ? "flex-row-reverse" : "flex-row"
+                    }`}
+                >
+                  <div
+                    className={`w-9 h-9 rounded-full flex-shrink-0 flex items-center justify-center border shadow-sm ${m.role === "user"
+                      ? "bg-white border-blue-100 text-blue-500"
+                      : "bg-blue-600 border-blue-400 text-white"
+                      }`}
+                  >
+                    {m.role === "user" ? (
+                      <FaUserAlt size={14} />
+                    ) : (
+                      <FaRobot size={16} />
+                    )}
+                  </div>
+
+                  <div
+                    className={`max-w-[78%] px-5 py-3.5 rounded-[22px] text-[14.5px] leading-relaxed shadow-sm ${m.role === "user"
+                      ? "bg-blue-600 text-white rounded-tr-none"
+                      : "bg-white text-slate-700 rounded-tl-none border border-gray-100"
+                      }`}
+                  >
+                    {m.role === "bot" && m.isNew ? (
+                      <Typewriter text={m.text} />
+                    ) : (
+                      m.text
+                    )}
+
+                    {/* Call + Visit Site */}
+                    {m.role === "bot" && m.showCall && (
+                      <div className="mt-3 p-3 rounded-xl bg-gradient-to-r from-green-50 to-emerald-50 border border-green-100 flex items-center justify-between shadow-sm">
+
+                        {/* Left Section */}
+                        <div className="flex flex-col leading-tight">
+                          <span className="text-sm font-semibold text-slate-700">
+                            Need help?
+                          </span>
+                          <span className="text-xs text-gray-400">
+                            Please contact or visit our official site
+                          </span>
+                        </div>
+
+                        {/* Actions */}
+                        <div className="flex items-center gap-2">
+
+                          {/* Visit Site */}
+                          <a
+                            href="https://adamasuniversity.ac.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="h-9 px-4 flex items-center gap-2 text-sm rounded-lg bg-blue-50 border border-gray-100 text-slate-600 hover:bg-blue-200 transition"
+                          >
+                            🌐
+                          </a>
+
+                          {/* Call */}
+                          <a
+                            href="tel:+919339244265"
+                            className="h-9 px-4 flex items-center gap-2 text-sm rounded-lg bg-green-200 text-white hover:bg-green-300 transition shadow-sm"
+                          >
+                            📞
+                          </a>
+
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 </div>
-                <div className={`max-w-[78%] px-5 py-3.5 rounded-[22px] text-[14.5px] leading-relaxed shadow-sm ${m.role === "user" ? "bg-blue-600 text-white rounded-tr-none" : "bg-white text-slate-700 rounded-tl-none border border-gray-100"}`}>
-                  {m.role === "bot" && m.isNew ? <Typewriter text={m.text} /> : m.text}
+              ))}
+
+              {/* Listening Animation */}
+              {listening && (
+                <div className="flex justify-center py-4">
+                  <div className="flex gap-1.5 items-center h-8">
+                    {[1, 2, 3, 4, 5, 6].map((i) => (
+                      <div
+                        key={i}
+                        className="w-1.5 bg-blue-500 rounded-full animate-bounce"
+                        style={{
+                          height: `${20 + Math.random() * 80}%`,
+                          animationDelay: `${i * 0.15}s`
+                        }}
+                      ></div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
-            {listening && (
-              <div className="flex justify-center py-4">
-                <div className="flex gap-1.5 items-center h-8">
-                  {[1, 2, 3, 4, 5, 6].map(i => (
-                    <div key={i} className="w-1.5 bg-blue-500 rounded-full animate-bounce" style={{ height: `${20 + Math.random() * 80}%`, animationDelay: `${i * 0.15}s` }}></div>
-                  ))}
-                </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
 
           {/* Input Area */}

@@ -44,7 +44,7 @@ export default function AdminPanel({ isLoggedIn, setLoggedIn, goBack }) {
         {/* Toast Notification */}
         {toast.show && <Toast message={toast.message} type={toast.type} />}
 
-        <button onClick={goBack} className="absolute top-6 left-6 text-gray-400 hover:text-blue-600 transition-colors flex items-center gap-2 text-sm font-medium">
+        <button onClick={goBack} className="absolute top-6 left-6 text-blue-600 hover:text-purple-600 transition-colors flex items-center gap-2 text-sm font-medium">
           <FaChevronLeft /> Back to Chat
         </button>
 
@@ -63,6 +63,7 @@ export default function AdminPanel({ isLoggedIn, setLoggedIn, goBack }) {
               <label className="text-[10px] font-bold text-slate-400 uppercase ml-1">Username</label>
               <input
                 type="text"
+                placeholder="Enter Username"
                 className="w-full p-3.5 rounded-xl border border-slate-200 bg-white outline-none focus:ring-2 ring-blue-500/20 focus:border-blue-500 transition-all text-slate-700"
                 onChange={(e) => setUser(e.target.value)}
               />
@@ -71,11 +72,12 @@ export default function AdminPanel({ isLoggedIn, setLoggedIn, goBack }) {
               <label className="text-[10px] font-bold text-slate-400 uppercase ml-1">Password</label>
               <input
                 type="password"
+                placeholder="Enter Password"
                 className="w-full p-3.5 rounded-xl border border-slate-200 bg-white outline-none focus:ring-2 ring-blue-500/20 focus:border-blue-500 transition-all text-slate-700"
                 onChange={(e) => setPass(e.target.value)}
               />
             </div>
-            <button className="w-full bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-black transition-all active:scale-[0.98] shadow-lg shadow-slate-200">
+            <button className="w-full bg-slate-900 text-white py-3 rounded-xl font-bold hover:bg-black transition-all active:scale-[0.98] shadow-lg shadow-slate-200">
               Identify
             </button>
           </form>
@@ -100,7 +102,7 @@ export default function AdminPanel({ isLoggedIn, setLoggedIn, goBack }) {
       {toast.show && <Toast message={toast.message} type={toast.type} />}
 
       <div className="flex items-center justify-between mb-8">
-        <button onClick={goBack} className="text-slate-500 hover:text-slate-800 transition-colors flex items-center gap-2 text-sm font-semibold">
+        <button onClick={goBack} className="text-blue-600 hover:text-purple-600 transition-colors flex items-center gap-2 text-sm font-semibold">
           <FaChevronLeft /> Back to Chat
         </button>
         <div className="flex items-center gap-2 bg-green-50 px-3 py-1.5 rounded-full border border-green-100">
@@ -146,7 +148,7 @@ export default function AdminPanel({ isLoggedIn, setLoggedIn, goBack }) {
 
         <button
           onClick={handleSave}
-          className="w-full bg-blue-600/10 backdrop-blur-md border border-blue-600/20 text-blue-600 py-3 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-sm active:scale-[0.97]"
+          className="w-full bg-blue-600/10 backdrop-blur-md border border-blue-600/20 text-blue-600 py-2 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-sm active:scale-[0.97]"
         >
           <FaPlus size={14} className="opacity-80" />
           <span className="tracking-tight">Add Knowledge</span>
